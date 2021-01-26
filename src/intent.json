@@ -1,0 +1,455 @@
+{
+    "intent":[
+        {
+            "tag":"greeting",
+            "patterns":["Hi","Hey","What's up","Hello","You there","Good day"],
+            "answer":["Hello","How can I help you?","Hey","Hi there"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","Bye"],
+            "answer": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+        },
+        {
+            "tag":"hru",
+            "patterns":["How are you","hru","You doing good?","Feeling well?"],
+            "answer":["I'm feeling amazing. Thanks for asking"]  
+        },
+        {
+            "tag": "age",
+            "patterns": ["how old","what is your age", "how old are you", "age?"],
+            "answer": ["I am 20 years old."]
+        },
+        {
+            "tag": "ffcs",
+            "patterns": ["What is ffcs","Tell about ffcs","How does ffcs work","ffcs"],
+            "answer": ["With ffcs, a student can prepare his/her own timetable with the specific courses he/she intends to do in that semester along with the timings of classes and choice of professors."]
+        },
+        {
+            "tag": "hours",
+            "patterns": ["When are you guys open", "What are your hours", "Hours of operation","working hours?","hours"],
+            "answer": ["We are open Monday to Saturday, from 9AM till 5PM!"]
+        },
+        {
+            "tag": "contact1",
+            "patterns": ["How to contact the office"],
+            "answer": ["Website: https://chennai.vit.ac.in/, Email ID: admin.chennai@vit.ac.in, Contact number: +91 44 3993 1555"]
+        },
+        {
+            "tag":"contact2",
+            "patterns":["What is vit's email","college email id","email"],
+            "answer":["Email ID: admin.chennai@vit.ac.in"]
+        },
+        {
+            "tag":"contact3",
+            "patterns":["What is vit's phone number","Phone no.","P.no","college phone number","Contact number","vit contact number","college contact number"],
+            "answer":["Contact number: +91 44 3993 1555"]
+        },
+        {
+            "tag":"contact4",
+            "patterns":["What is vit's website","Official website"],
+            "answer":["Website: https://chennai.vit.ac.in/"]
+        },
+        {
+            "tag": "amenities",
+            "patterns": ["What are the facilities available?", "What amenties are there", "Facilities?","Amenities?","canteen","food courts"],
+            "answer": ["Canteens, Food courts, Health centre, Trasport facilities for faculties and day-scholars, Banks, ATMs, Guesthouse, Gymnasium, Swimming Pool"]
+        },
+        {
+            "tag": "schools",
+            "patterns": ["what are the various schools","what is SAS,SCOPE,VITSOL,etc", "what are schools","what is scope","what is sas","what is vitsol"],
+            "answer": ["Teaching at VIT Chennai is structured around several schools of study. Students can register in one of the schools, depending on the degree/programme they are interested in pursuing. The schools are as follows: School of Advanced Sciences (SAS), School of Computer Science and Engineering (SCOPE), School of Electrical Engineering (SELECT), School of Electronics Engineering (SENSE), School of Mechanical Engineering (SMEC), School of Civil Engineering (SCE), VIT Business School (VITBS), VIT School of Law (VITSOL), VIT Fashion Institute of Technology (VFIT)"]
+        },
+	    {
+            "tag": "LTPJC",
+            "patterns": ["what is LTPJC","what is J component","distribution of course credits"],
+            "answer": ["At VIT, we follow CAL- Curriculum for Applied Learning System, so a course can have 4 things which contribute to credit namely, 1. Lecture Classes per week (each of 50 minutes duration) ( L) 2. Tutorial Classes per week(each of 50 minutes duration) (T) 3. Lab(Practicals) Classes per week( each of 50+50=140 minutes) ( (P) 4. Project (J)( 4 hours per week should be spent on making projects) and thus Credit C= L+T+(P/2)+(J/4)"]
+        },
+	    {
+            "tag": "total credits",
+            "patterns":["how many credits are to be done in the 4 years","total credits to be completed?","minimum credits for degree","credits","how many credits","total number of credits","how many credits are required"],
+            "answer": ["180 credits for BTech are ought to be done in 4 years for 2018, 2017 batches whereas 2019 onwards the minimun number of credits for getting the degree is 160"]
+        },
+	    {
+            "tag": "UE" ,
+            "patterns":["what are UEs","what is a university elective","UE?"],
+            "answer": ["University Electives are meant to develop interdisciplinary skills among the students. So the students can take any courses other than their University and Program core courses as their University elective courses. Student should have completed minimum of 12 credits(>2018) and 6 credits(2019 onwards) under university electives to fulfil their requirements to complete their B.Tech Degree."]
+        },
+	
+	    {
+            "tag": "UC" ,
+            "patterns":["what are UCs","what is a university core","UC?"],
+            "answer": ["Courses listed under University Core are mandatory to all similar degree programmes.These courses are basic in nature and are expected to enhance student’s knowledge in various disciplines apart from his/her own discipline. Student should have completed minimum of 70 credits(>2018) and 52 credits(2019 onwards) under university electives to fulfil their requirements to complete their B.Tech Degree."]
+	    },
+	    {
+            "tag": "PE" ,
+            "patterns":["what are PEs","what is a programme elective","PE?"],
+            "answer": ["By taking Programme Elective courses, students get an opportunity to study courses which are more advanced or applied or specialized than the basic courses he/she studies as part of core courses listed under their programme curriculum. These courses will generally provide an in-depth knowledge of a specific sub-field the student has taken as his/her major specialization. Student should have completed minimum of 40 credits(>2018) and 30 credits(2019 onwards) under university electives to fulfil their requirements to complete their B.Tech Degree."]
+        },
+	    {
+            "tag": "PC" ,
+            "patterns":["what are PCs","what is a programme core","PC?"],
+            "answer": ["Courses listed under Programme Core of a curriculum are mandatory to the specific programme. Students have to complete all the courses listed under PC to become eligible for the degree. No substitution of a PC course is permitted. Student should have completed minimum of 58 credits(>2018) and 72 credits(2019 onwards) under university electives to fulfil their requirements to complete their B.Tech Degree."]
+        },
+        {
+            "tag":"Holiday",
+            "patterns":["Will VIT give holidays","Holidays","Leave","Leaves","Holiday","Vacation","Vacations"],
+            "answer":["VIT's holiday list will be circulated through your email id before the start of each semester"]
+        },
+        {
+            "tag":"Basic Attendance",
+            "patterns":["attendance","minimum attendance","what is the minimum attendance","how many classes should we attend"],
+            "answer":["Students who have a CGPA less than 9 are required to maintain a minimum of 75% attendance in each course"]
+        },
+        {
+            "tag":"Debar",
+            "patterns":["Debar","Debarred","What is debaration","What happens if i get debarred"],
+            "answer":["If you have less than 75% attendance for a particular subject, you will not be able to write the exams for that subject till you get more than 75%"]
+        },
+        {
+            "tag":"Debar2",
+            "patterns":["How do I get debarred","Why will i get debared"],
+            "answer":["If you dont have 75% attendance in any subject, you could get debarred. (Unless you are a 9 pointer)"]
+        },
+        {
+            "tag":"DebarLab",
+            "patterns":["Is debar for lab also","Lab debar","Is debar only for theory","Are lab debars there"],
+            "answer":["You can get debarred from lab also, if you have less than 75% attendance"]
+        },
+        {
+            "tag":"Lab1",
+            "patterns":["Do all subjects have labs","All subject lab?"],
+            "answer":["No, only subjects with credits under P have labs"]
+        },
+        {
+            "tag":"Lab2",
+            "patterns":["Are there only lab subjects or both theory and lab","Theory and lab subjects"],
+            "answer":["There are subjects with both theory and lab and some which are only lab"]
+        },
+        {
+            "tag":"Lab3",
+            "patterns":["Are only lab classes graded differently","Only lab cats","If there is only lab how are they graded","Lab only grading"],
+            "answer":["Most only lab subjects have regular PATs, and the usual CATs and FAT. Ask your respective lab faculty for more info"]
+        },
+        {
+            "tag":"Cat1",
+            "patterns":["Cats","Cat","What is continuous assesment test","What are cats","How many cats"],
+            "answer":["Every theory subject has 2 CATs is out of 50 which will be converted to 15 for grade convertion, which will take place before your FAT during the semester. CATs will be for 90 mins"]
+        },
+        {
+            "tag":"Cat2",
+            "patterns":["Are there any difference between the cats","Cat1 and Cat2 difference","cat difference"],
+            "answer":["Cat 1 happens first usually a month after the semester starts and is closed book whereas Cat 2 will take place at about 3 weeks after Cat1 and is open book"]
+        },
+        {
+            "tag":"Open Book",
+            "patterns":["Is Cat2 open book","Open Book Test","Are all exams open book","Is Cat1 also open book","Fat open book"],
+            "answer":["Only Cat2 is open book"]
+        },
+        {
+            "tag":"thank you",
+            "patterns":["Thanks","Thank you"],
+            "answer":["No, Thank you"]
+        },
+        {
+            "tag":"Fat1",
+            "patterns":["When are FATs","How long do fats last","Time limit of Fats"],
+            "answer":["FATs are the last exams of the semester which are conducted at the end of the semester. They are 3 hours long"]
+        },
+        {
+            "tag":"Fat2",
+            "patterns":["How are theory fats graded","Weightage of FATS","Importance of fats","Marks in fat","Theory Fat","Theory fats"],
+            "answer":["Theory Fats are out of 100 marks which will be converted to 40 for grade convertions"]
+        },
+        {
+            "tag":"DA1",
+            "patterns":["DA","What are DAs","What are digital assignments"],
+            "answer":["Apart from CATs, FATs and projects you will have to complete three digital assignment for all theory courses. How and what they will be depends on your faculty coordinator."]
+        },
+        {
+            "tag":"DA2",
+            "patterns":["Weightage of DA","Digital Assigment marks","DA marks","Marks in DAs","Weightage of da"],
+            "answer":["Digital Assignments are out of 10 marks"]
+        },
+        {
+            "tag":"Course Selections",
+            "patterns":["How does course selection work at the beginning of each sem semester","How do i select teachers and courses"],
+            "answer":["Before each semester you will be given a time slot and ffcs link. During that time slot you can access the link and select courses. Once you have selected your course you can choose your slot and teachers"]
+        },
+        {
+            "tag":"Course2",
+            "patterns":["Is there an easy way to decide what courses to take for the next or upcoming sem","Am i allowed to take any course","Can i take courses outside my syllabus","I dont know what courses to choose, how to decide"],
+            "answer":["You will be getting a list of preferred courses to choose from based on your branch before each semester. You can deviate from that but finding other courses of appreciable time slots could be difficult. You can only take courses offered to you for your branch other than the University Electives"]
+        },
+        {
+            "tag":"Time Slot",
+            "patterns":["How are time slots for course selection / ffcs decided","Criterias for time slots for course selection","ffcs time slots"],
+            "answer":["If you have 100% overall attendance or are a 9 pointer you will have the earliest time slot. The remaining slots are decided based on your attendance and cgpa."]
+        }, 
+        {
+            "tag": "hostel rooms",
+            "patterns": ["How many beds", "how many room mates in hostel rooms", "Can I get a single bed?","hostel room","Can you explain about hostel rooms"],
+            "answer": ["There are two,three and four bedded accomodation"]
+        },
+        {
+        
+            "tag": "AC hostel room",
+            "patterns": ["Is AC facility available", "Are there Ac rooms", "Are there non AC rooms","Ac rooms or non AC rooms?"],
+            "answer": ["There are both AC and non AC rooms and the selection is optional"]
+        }, 
+        {
+            "tag": "Hostel food",
+            "patterns": [" Is non Veg available?", "Veg or Non veg", "North Indian food","south Indian","Mess food"],
+            "answer": ["We have both veg and non veg food in all South Indian,North Indian and special mess and selection is optional "]
+        },
+        {
+            "tag": "Hostel facilities",
+            "patterns": ["what facilities available in hostel?", "Do you have gym in hostel", "Are there facilities for fitness?","I would like to know more about hostel","How good is the  hostel facilities in VIT?"],
+            "answer": ["We have gymnasium,health centre,Indoor games ,Entertainment hall with Tv facility,Wifi facility in the hostel"]
+        },
+        {
+            "tag": "Sports",
+            "patterns": ["What are the sport activities available?", "Which sports team is there in VIT?", "Can you list the games played?","Is physical activities given priority?"],
+            "answer": ["We have college teams in cricket,Basket ball,Football,Badminton,Tennis,Swimming,Volley ball,Table tennis,Chess"]
+        },
+        {
+            "tag": "Clubs",
+            "patterns": ["What are the various clubs?", "What are the extra-curricular activities?"],
+            "answer": ["Dance,Music,Dramatics,Viteach,NSS,Robotics club,Enactus,Trekking,Photography,English liererary,Quiz,Designers,Yoga,Tamil,Uddheshya,Health,Youth red cross,Womens development,Rotaract etc are few clubs"]
+        },
+        {
+            
+            "tag": "Placements",
+            "patterns": ["How about placements in VIT?", "How good are the placements?", "What are the companies that visit VIt?","What about campus interview?","How about jobs offered?"],
+            "answer": ["There is a placement and training centre.Abou 600 companies visit and some of them are Microsoft,De-Shaw,Paypal,Cisco,Amazon,Intel,Ebay,Texas instruments,Dell,Ashok Leyland,Honda,TCS,Morgan,Qualcomm,Ford,Acenture,nfosys"]
+        },
+        {
+            
+            "tag": "Hostel timings",
+            "patterns": ["Whats the girls hostel timings", "How about hostel timings for boys?", "Hostel curfew timings?","In-time for boys hostel","In-time for girls hostel"],
+            "answer": ["Boys and girls  have to be inside the campus by 6.00pm.Boys have to enter the hostel by 9.00 pm and girls by 7.00 p.m "]
+        },
+        {     
+            "tag": "Library",
+            "patterns": ["Can you give details about libary", "What are the library working  hours", "How can I borrow  books from library?","how many days can i keep books borrowed from library?","DO I needId card for  library"],
+            "answer": ["!Library is open from 8.00 am to 11:59 p.m   and books are issued to members on RFID Check Out KIOSK and returned by RFID DROP KIOSK"]
+         },
+
+        {            
+            "tag": "Bus",
+            "patterns": ["Can you give details of college bus", "what are the travel options for day scholars?", "How many bus routs are there?","Will there be bus going via porur?"],
+            "answer": ["There are bus facilities for day scholars and there are pick up points in almost all major locations in the city with about 25 bus routes"]
+
+        },
+        {
+            "tag": "Bus timing",
+            "patterns": ["At what  time does the college bus reach college? ", "At what time does the college bus start back from college?", "What are the bus timings during cat?","Is there bus facility in the afternoon?"],
+            "answer": ["College buses reach college at 7:55 a.m  and start back at 5 p.m.There is a bus which starts at 1.00 pm and goes till Tambaram"]
+        },
+        {            
+            "tag":  "Food courts",
+            "patterns": [ "How is the canteen in the college?","what are the various food stalls vailable?","other than hostel food where can I get food from?","What are the food options for day scholars?"],      
+            "answer": ["There is a canteen Veat,Gymkhaana,Gazebo where you get nuggets,Sandwich,juices,burgers,milk shakes,Aavin milk stall,Dominos,Lassi house,Pitstop"]
+                     
+        },    
+	    {
+            "tag": "Hostel Leave application",
+            "patterns": ["How do you apply for leave", "whats the procedure to go to local guardians home?", "How to go to native?","Do I need permission to go home?","Can hostel wardens approve leave?"],
+            "answer": ["For hostel leave you need to apply to your proctor via V-TOP and after he approves you need to take a printout and submit it to the hostel warden and get his/her approval."]
+        },
+	    {
+            "tag": "Health Centre",
+            "patterns": ["What to do if you are sick?", "Where to go when you are not feeling well?"," feeling sick what to do", "Is there medical facility in the campus","what facilities are available in health centre?"],
+            "answer": ["Health centre operates 24×7 and is near AB2 and is run by chettinad medical group (Help Line Number : 044 3993 1100) with Observation Beds,Consultation room, Doctor and staff nurses Housekeeping ,2 Ambulances"]
+        },
+	    {
+            "tag": "Outing for girls",
+            "patterns": ["Is outing permitted for girls?", "What is the procedure to go for outing", "How to get permission to go out of the college?"],
+            "answer": ["Girls need to submit their outcard at the entrance  gate  and collect it once  they return before 6 p.m"]
+        },
+
+	    {
+            "tag": "Student abroad programmes",
+            "patterns": ["Cn you do courses abroad?", "What is semester abroad programmes?", "where to contact for doing semester abroad?","How to getexperience in international universities?"],
+            "answer": [" During 8th semester the interested Students  can apply through SAP(for more details contact  office of international relations in AB2) and go to the partner university that has selected them and spend 5-6 months there undertaking the project"]
+        },
+
+	    {
+            "tag": "Arrear",
+            "patterns": ["to do if you fail in exam?", "What is the procedure to apply for arrear?", "Is it goood to re-register for a course or give arrear exam?"],
+            "answer": ["You can apply for arrear exam or re register for  that course.If you re-register then it would not be seen as failed in the grade certificate"]
+        },
+	    {
+            "tag": "fests",
+            "patterns": ["Which are the major fests?", "Are there any college culturals?", "what are the technical fests in college?","Do vit hosts intercollege culturals?"],
+            "answer": ["There are two major fests are Vibrance-a cultural and sports fest and technoVit a technical fest"] 
+        },
+	    {
+            "tag": "Counselling",
+            "patterns": ["Is there counselling facility?", "Whom can I meet to get pyschological help?'", "What to do if you feel emotionally  unwell?","Any facility for addressing mental health issues?","Depression"],
+            "answer": ["Please feel free to contact any of the following Counsellors:Ms. S. Bhuvaneswari (9791142617)] or Dr. Maya R(9444333030 )"]
+        },
+	    {
+            "tag": "Guest house",
+            "patterns": ["Where can parents stay when they come to visit wards?", "What is the procedure to apply for guest house?"],
+            "answer": ["Parents can send a mail to proctor who in turn will request for guest house allotment and on approval the parent will receive an email.contact 91 44-39931444 for more information"]
+        },
+	    {
+            "tag": "Additional learning",
+            "patterns": ["How can I get marks in additional learning", "criteria for additional learning", "does publication of research paper give extra marks ","Will online courses be counted for grades?"],
+            "answer": ["ONline courses,research papers,participation in Make-a-thon and other technical activities are considered for additional learning  for maximum three courses if relevant documents are uploaded"]
+        },
+	    {
+            "tag": "Course registration",
+            "patterns": ["please explain about course registration", "How to select faculty?", "How to select courses?","Is course registration on a first come first serve basis?","Will I get the required courses?"],
+            "answer": ["There will be a mock registration where the list of courses and faculties will be displayed prior to the actual registration."]
+        },
+	    {
+            "tag": "Add/Drop courses",
+            "patterns": ["What to do if I miss registration", "I didnt get the courses I wanted", "I dont want the course I selected","I want to add more credits this semester"],
+            "answer": ["There is an option for add/Drop courses after course registration.If you want to take more or delete some courses you can do the same during that time"]
+        },
+	    {
+            "tag": "hours",
+            "patterns": ["When are you guys open", "What are your hours", "Hours of operation","working hours?","hours"],
+            "answer": ["We are open Monday to Saturday, from 9AM till 5PM."]
+        },
+        {
+            "tag":"options" ,
+            "patterns": ["How you could help me?","What you can do?","What help you provide?","What support is offered","Help","What are you for","What is your use"],
+            "answer":["I can help you get some data about PE(Program Electives), PC(Program core), UC(Universite Core) and UE(University Electives). I could give you a walkthrough about the College and about ITP."]
+        },
+        {
+            "tag":"ITP",
+            "patterns":["ITP?","What is ITP?","What do you mean by transfer program","what is the abroad program","UG-partenership?","Is there a UG tie-up with foreign?"],
+            "answer":["VIT offers an International Transfer Programme (ITP) where the students can opt for studying at a partner university after completing their 2 years of their bachelor's degree in VIT. The students can opt for International Transfer Programme in partner universities in the USA, UK, Sweden or Australia."]
+        },
+        {
+            "tag":"placements2",
+            "patterns":["internships?","Tell about placements","jobs?" ,"How many students are placed abroad?","placements?","Highest package offered?"],
+            "answer":["VIT achieves the highest number of dream offers, with attractive salaries, in the country. Highest CTC: 44LPA. Placement centre has been instrumental in providing international internships and placement offers since 2015. They have placed at an average of 10 students every year in leading MNC’s at USA, UK, Ireland, Japan, China, Israel, Taiwan, UAE, Kenya, Germany, Nigeria and Italy."]
+        },
+        {
+            "tag":"offers2",
+            "patterns":["What is a dream offer?","What do you mean by super dream companies","offers?","dream company?"],
+            "answer":["In Dream placement offer, many students are presented with offers with Cost of Company (CTC) of 5.5 Lakhs and above per annum.In Super Dream placement offer, the students are presented with offers with Cost of Company (CTC) of 10 Lakhs and above per annum."]
+        },
+        {
+           "tag":"library2",
+           "patterns":["Tell about Library","books?","Any e-books offered?","Central Library?"] ,
+           "answer":["We have a central library located opposite to the admin block with a wide variety of books and e-books."]
+        },
+        {
+            "tag":"sports2",
+            "patterns":["Any outdoor activity?","playing ground?","Play field?","Track and field","cricket?","tennis?","football?","badminton","volleyball","athletics"],
+            "answer":["We have numerous outdoor playgrounds for track and field events, football, cricket, volleyball, badminton etc."]
+        },
+        {
+            "tag":"sports3",
+            "patterns":["Indoor sports","Indoor sports","indoor actvities?","carrom","chess","table tennis","tt","gym"],
+            "answer":["VIT offers indoor facilities such as Carrom, Chess, GYM and Table Tennis"]
+        },
+        {
+            "tag":"Health2",
+            "patterns":["first aid?","health issues?","where is the health centre located?","ambulance"],
+            "answer":["The Health Centre is located near the Academic Block 2. It is currently run by the Chettinad Medical Group.It caters to any student’s medical needs 24×7. Help Line Number : 044 3993 1100.We have Observation Beds, Consultation room, Doctor and staff nurses, Housekeeping, 2 Ambulances"]
+        },
+        {
+            "tag":"backlog",
+            "patterns":["arrears?","passing criteria?","How to clear backlogs","Tell about arrear exam."],
+            "answer":["We maintain a passing criteria of 40% overall. Students should also secure 40% in each of the examinations conducted, and students are expected to maintain 75% attendance in all the subjects. Students would be debarred from writing an exam if they involve in any malpractices or do not meet the attendance criteria. Arrear exams are conducted for students separately, and they can wish to re-register for the course to improve their grades."]
+        },
+        {
+            "tag":"Moodle",
+            "patterns":["What is moodle","moodle","moodle link","lms","lms link","moodle website","lms website"],
+            "answer":["Moodle/Lms link: https://lms.vit.ac.in/, Moodle is a platform for students to do assignments, quizzes and submissions"]
+        },
+        {
+            "tag":"Vtop",
+            "patterns":["Vtop","Student portal","Where can I see my timetable","Viewing marks","View marks","See grades","Student history","Where can I see my attendence"],
+            "answer":["Vtop is a student portal for viewing marks/grades, timetable, attendence, student history etc. Link: http://vtopcc.vit.ac.in:8080/vtop/initialProcess"]
+        },
+        {
+            "tag":"Research",
+            "patterns":["Scope of research","Research","Research papers","Publications"],
+            "answer":["VIT offers a very high scope of research scholars and publications. For more information visit https://chennai.vit.ac.in/research/"]
+        },
+        {
+            "tag":"Proctor",
+            "patterns":["mentor?","tutor?","help from teachers"],
+            "answer":["The proctor is just like an on-campus parent/mentor to whom you can approach if you have any sort of problem either it is an academic/non-academic help."]
+        },
+        {
+            "tag":"Intersem",
+            "patterns":["what is Intersem?","inter-sem?","Intersem?","any semester in between holidays?"],
+            "answer":["Inter semester is usually for clearing backlogs or maybe grade improvement. It's actually quite nice compared to regular semester."]
+        },
+        {
+            "tag":"Dean",
+            "patterns":["dean of academics?","dean?","dean mail ID?"],
+            "answer":["VIT has dean professors from various schools such as SCOPE,SCHEME and SCE etc. You can contact your proctor for further information about your dean. EMAIL - ID : dean.acad@vit.ac.in"]
+        },
+        {
+            "tag":"Programme Chair",
+            "patterns":["progamme chair?","programme-chair?","what do you mean by programme chair?"],
+            "answer":["The Program Chair is responsible for curricular oversight, academic advising (including orientation of students), and the recruitment and mentorship of faculty enrolled in."]
+        },
+        {
+            "tag":"Classrooms",
+            "patterns":["how big is a class room?","classrooms?"],
+            "answer":["The classrooms are well designed to fit 60 students and incorporates everything needed for a pleasant learning atmosphere. Smart and white boards are used in the classrooms for teaching that enables the professors to switch to different modes of teaching depending on the requirement."]
+        },
+        {
+            "tag":"Auditorium",
+            "patterns":["auditorium?","Where does conferences take place?","are the auditoriums air-conditioned","capacity of the auditorium"],
+            "answer":["We have three big auditoriums which can accommodate atleast 400 students and ,it has been built with centralised air conditioners ,Wi-fi service and a spectacular stage along with perfect amount of lighting."]
+        },
+        {
+            "tag":"Faculty",
+            "patterns":["faculty info","faculty?","are the faculties qualified?"],
+            "answer":["Our faculty are highly qualified, committed, and experienced, and are committed to remaining technically current and providing a world-class education to our students. For more info. visit https://chennai.vit.ac.in/academics/schools/scse/faculty/"]
+        },
+        {
+            "tag":"Day Scholars",
+            "patterns":["tell me about Day scholars","Any advantage of being a day scholar?"],
+            "answer":[" Day scholars have benefit to go out and enter college any time but hostelers have their IN times."]
+        },
+        {
+            "tag":"ID cards",
+            "patterns":["id?","id card"],
+            "answer":["Our Administration ensures students to wear ID card during campus either for entering into Library, late night permission, Main gate entry, Library book issue, Examinations etc."]
+        },
+        {
+            "tag":"ID card lost",
+            "patterns":["what happens if I lose my ID card?","ID card lost?"],
+            "answer":[" VIT will re issue your ID card but you have to pay some fine in the office and you have to re-apply for ID card. You can contact Student record section and apply there.Then you will be directed to CTS office where you will get your new ID card."]
+        },
+        {
+            "tag":"Programmes OFFERED 2019-2020",
+            "patterns":["what are the new programmes offered?","are there any new programmes offered?","list of new programmes offered"],
+            "answer":["We offer 51 Undergraduate, 33 Postgraduate, 11 Integrated Programmes, 2 Research programmes and 2 M.Tech Industrial Programmes. For more info. visit https://vit.ac.in/admissions/programmes-offered"]
+        },
+        {
+            "tag":"Academic Transcripts",
+            "patterns":["how to apply for transcript?","academic transcripts?"],
+            "answer":["To apply for the Academic Transcripts, you need to have your (a) Registration Number (b) VIT Alumni Email ID and (c) Date of Birth. For further procedure visit https://vit.ac.in/transcripts-alumni"]
+        },
+        {
+           "tag":"Anti- Ragging",
+           "patterns":["no ragging?","ragging free campus?"],
+           "answer":["VIT gives immense emphasis on maintaining a ragging free campus. If any student has any grievance, including any kind of harassment, the same can be brought to the notice of the Chairperson or any of the Committee Members from various schools, for necessary action and redressal. Chairperson Email: dsw@vit.ac.in"] 
+        },
+        {
+            "tag":"Radio",
+            "patterns":[" Do you have VIT radio?","radio?","vit-radio","frequency of vit-radio?"],
+            "answer":["VIT Community Radio 90.8 MHz, is an initiative by VIT for the empowerment of the Vellore community. We want to provide an opportunity for the community and our students, to help them get to know their basic rights, duties and responsibilities."]
+        },
+        {
+            "tag":"feedback",
+            "patterns":["Do students need to give feedbacks?","Feedback?","academics-feedback?"],
+            "answer":["Feedback on the course from the students and faculty members is obtained at the end of each semester through the in-house portal VTOP. Areas of improvement are identified and the analysed feedback is discussed in faculty meetings."]
+        }
+    ]
+}
+
+
